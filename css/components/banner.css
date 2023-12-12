@@ -1,0 +1,9 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding:200px 0;
+  background-image: url(images/background.png);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
