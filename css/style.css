@@ -11,6 +11,8 @@
 body {
   margin: 0;
   font-family: Open Sans;
+  height: 100vh;
+  background-color: rgba(250, 229, 221, 0.667);
 }
 
 h1, h2, h3, h4 {
@@ -27,12 +29,6 @@ a {
 p{
   color:lightslategray;
 }
-.btn-primary{
-  background-color: crimson;
-  padding: 16px 36px;
-  border-radius: 50px;
-  color: aliceblue;
-}
 
 .text-center{
   text-align: center;
@@ -41,4 +37,37 @@ p{
 .Facebook {
   text-align: center;
   font-weight: 400;
+}
+
+.h1-text {
+  font-size: 50px;
+  color: crimson;
+}
+
+.btn{
+  background-color: crimson;
+  padding: 16px 16px;
+  border-radius: 50px;
+  margin-top: 10px;
+  color: aliceblue;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  transition: 0.3s;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn-color{
+  color: aliceblue;
+}
+
+.btn:hover{
+  background-color: darkred;
 }

@@ -1,5 +1,7 @@
 .footer{
-  text-align: center;
-  padding:60px;
-  background-color: lightcyan;
+  position: relative;
+  height:auto;
+  color: rgb(244, 123, 123);
+  font-size: large;
+  background-color: rgb(234, 199, 153);
 }
