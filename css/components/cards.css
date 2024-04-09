@@ -1,19 +1,28 @@
 .card{
-  margin-bottom: 15px;
-  width: 200px;
+  width: auto;
   border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 20px;
-  border: 1px solid rgb(230,230,230);
+  border: 1px solid rgb(194, 57, 57);
 }
 .cards {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-  flex-direction: row;
-  width: 90%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.3);
 }
+.cards .card {
+  width: 30%;
+  margin: 10px;
+}
+
 .card img {
   width:150px;
+}
+
+.card h4 {
+  color: crimson;
+  font-size: 20px;
+  text-align: center;
 }

@@ -2,3 +2,11 @@
   width: 1001px;
   margin: auto;
 }
+
+.text-center{
+  display: flex;
+  justify-content: center;
+  color: rgb(231, 59, 59);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
